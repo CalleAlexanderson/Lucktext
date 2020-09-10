@@ -27,10 +27,15 @@ namespace Lucktext
             string a9 = Console.ReadLine();
             start = 1;
 
-            while (start == 1)
+            if (start == 1)
             {
+                System.Console.WriteLine("Hej jag heter " + a3 + " och jag jobbar som " + a4 + ". \n" +
+                "Jag har " + a1 + " hår och " + a2 + " ögon, på fritiden är jag med " + a7 + " i parken där vi " + a5 + " och " + a8 + ". \n" +
+                "På kvällen så är med min " + a9 + " " + a6 + ".");
 
             }
+
+            Console.ReadLine();
 
 
         }
